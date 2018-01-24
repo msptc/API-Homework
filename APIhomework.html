@@ -14,22 +14,19 @@
 </head>
 
 <body>
-    <div class = "container">
-       <form>
-           <div class="form-group">
-                <label for = "Search for GIFs"></label>
-                <input type = "text" class = "form-control" name = "" id ="input" placeholder = "Search">
-           </div>
-           <button type = "submit" class = "btn btn-primary" id = "submit">Submit</button>
-       </form>
-    <br>
-       <div class = "results">
-          <div class = "panel panel-default">
-              <div class = "panel-body img-body">
-                 
-              </div>
-       </div>
-    </div>
+    <!-- rendered buttons go here -->
+   <div id ="renderedButtons"></div> 
+    
+      <form id ="sportsForm">
+        <h3 id ="searchGiphy">Click to Add Another Button!</h3>
+        <label for ="sportInput"></label>
+        <input type ="text" id ="sportInput">
+        <br>
+<!-- button to add new sport button -->
+    <input type="button" class="btn btn-primary" id="addSportGif" type="submit" value="Add sport">
+      </form>
+<!-- sports go here -->
+      <div id = "sportsView"></div>
  <!-- Link to Javascript -->
  <script src="assets/javascript/logic.js" ></script>   
 

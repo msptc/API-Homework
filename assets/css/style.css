@@ -1,6 +1,7 @@
-.img-box{
-    height: 150px;
-    width: 150px;
-    border: 1px solid black;
+#addSportGif{
+    margin-top: 17px;
+}
 
+button, div, form, input{
+    margin:10px;
 }
