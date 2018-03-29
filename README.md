@@ -1,1 +1,1 @@
-# API-Homework
+This homework uses Giphy API to display sports GIFs pertaining to the button clicked. A search function is also available that creates buttons at the top of the page that will display GIFs. Clicking on the GIFs plays and pauses them.  
